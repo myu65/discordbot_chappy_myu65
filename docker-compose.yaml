@@ -1,0 +1,10 @@
+version: '3'
+services:
+  python3:
+    restart: always
+    build: .
+    volumes:
+      - ./src:/var/workdir
+    environment:
+      - DISCORD_BOT_TOKEN=$DISCORD_BOT_TOKEN
+      - GROQ_API_KEY=$GROQ_API_KEY
