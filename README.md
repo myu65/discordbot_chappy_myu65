@@ -1,6 +1,6 @@
 # discordbot_chappy_myu65
 
-discordにgroqで応答するBOT。
+discordにgroqで応答するBOT。メンションに反応して返信をスレッドで作って返答する。groqははやいのでstreamもしてない
 
 要件：
 - 適当なサーバー。EC2のt2-microとかでOK。これの無料枠で行ける。discordのbotはポート開放もいらない。自鯖でもOK。
@@ -29,6 +29,9 @@ pip install discord.py groq
 
 とかでいけるはず
 
+
+
+![image](https://github.com/user-attachments/assets/1a09f642-bc95-4e0a-9a99-41631f4813c5)
 
 
 
