@@ -5,7 +5,7 @@ discordにgroqで応答するBOT。
 要件：
 - 適当なサーバー。EC2のt2-microとかでOK。これの無料枠で行ける。discordのbotはポート開放もいらない。自鯖でもOK。
 - groqのAPIキー。https://console.groq.com/keys ここで登録して発行。2025-01-31現在、無料プランしか存在しない。 環境変数`GROQ_API_KEY`にいれる
-- discordのbotのAPIキー。なんかhttps://discord.com/developersらへんで発行する。botとしてはスレッドを作って読めて書き込める必要あり。環境変数`DISCORD_BOT_TOKEN`に入れる
+- discordのbotのAPIキー。なんかhttps://discord.com/developers らへんで発行する。botとしてはスレッドを作って読めて書き込める必要あり。環境変数`DISCORD_BOT_TOKEN`に入れる
 
 ## docker-composeでの起動方法
 .envに
